@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>jqm</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+	<body>
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-position="fixed">
+				<h1>Form</h1>
+				<a href="" data-rel="back">atras</a>
+			</div>
+			<div data-role="content" data-theme="a">
+				
+				<form action="" method="">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="ingresa tu nombre">
+					<label for="email">Em@il</label>
+					<input type="email" id="email" name="email">
+					<label for="desc">Descriptioniviris</label>
+					<textarea id="desc" name="desc"></textarea>
+					<input type="range" min="0" max="10" name="range" id="range">
+					<select name="countries" id="countries" data-native-menu="false">
+						<option value="1">Chibchombia</option>
+						<option value="2">Itali</option>
+						<option value="3">Japan</option>
+						<option value="4">Canada</option>
+					</select>
+					<label for="sex">Sex</label>
+					<select name="sex" id="sex" data-role="slider">
+						<option value="M">Male</option>
+						<option value="F">Female</option>
+					</select>
+				</form>
+				
+						
+			</div>
+			<div data-role="footer"  data-position="fixed">
+				<a href="#" data-icon="plus">Si</a>
+				
+			</div>
+		</div>
+
+	</body>
+</html>
