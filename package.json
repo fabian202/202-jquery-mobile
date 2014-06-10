@@ -1,0 +1,19 @@
+{
+  "name": "x",
+  "version": "0.0.0",
+  "description": "202-jquery-mobile =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabian202/202-jquery-mobile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabian202/202-jquery-mobile/issues"
+  },
+  "homepage": "https://github.com/fabian202/202-jquery-mobile"
+}
