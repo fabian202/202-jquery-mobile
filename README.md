@@ -1,4 +1,4 @@
 202-jquery-mobile
 =================
 
-First jQuery Mobile App
+Readme for First jQuery Mobile App.
